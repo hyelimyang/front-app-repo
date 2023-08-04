@@ -17,6 +17,7 @@ jobs:
 
       - name: Build front
         run: |
+          react-scripts --openssl-legacy-provider start
           npm install
           npm run build
 
